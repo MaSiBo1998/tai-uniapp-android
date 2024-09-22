@@ -1,0 +1,7 @@
+/app/build
+/app/debug
+.gradle/
+.DS_Store
+*.zip
+dist/
+unpackage/

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="./js/uni.webview.1.5.2.js"></script>
+		<script src="./js/jq.js" type="text/javascript" charset="utf-8"></script>
+		<!-- uni 的 SDK -->
+		<script type="text/javascript" src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js">
+		</script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.0.0/vconsole.min.js" type="text/javascript"
+			charset="utf-8"></script>
+		<script>
+			// init vConsole，app中查看
+			var vConsole = new VConsole();
+			console.log('Hello world');
+		</script>
+		<script>
+			document.addEventListener('UniAppJSBridgeReady', function() {
+				uni.webView.getEnv(function(res) {
+					console.log('当前环境：' + JSON.stringify(res));
+				});
+			});
+		</script>
+	</head>
+	<body class='body'>
+		<button id="setup">设置</button>
+		<button id="imageFromCamera">身份证拍照</button>
+		<button id="imageFromGallery">图片选择</button>
+		<button id="launchUrl">打开外部链接</button>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			// 初始化
+			// initVideo()
+			// uni.app事件
+		})
+		$('#setup').click(function() {
+			uni.webView.postMessage({
+				data: {
+					method: 'reload',
+					value: 'test'
+				}
+			})
+		});
+		$('#imageFromCamera').click(function() {
+			uni.webView.postMessage({
+				data: {
+					method: 'imageFromCamera',
+					value: 'test'
+				}
+			})
+		});
+		$('#imageFromGallery').click(function() {
+			uni.webView.postMessage({
+				data: {
+					method: 'imageFromGallery',
+					value: 'test'
+				}
+			})
+		});
+		$('#launchUrl').click(function() {
+			uni.webView.postMessage({
+				data: {
+					method: 'uploadDeviceData',
+					value: {
+							type:[1,2]
+					}
+				}
+			})
+		});
+		
+
+		function getLocation(data) {
+			console.log(data)
+		}
+		function imageFromCamera(data) {
+			console.log(data)
+		}
+		function imageFromGallery(data) {
+			console.log(data)
+		}
+		function launchUrl(data) {
+			console.log(data)
+		}
+	</script>
+	<style>
+		button {
+			margin: 50px auto 0;
+			display: block;
+			text-align: center;
+		}
+		#setup {
+			
+		}
+	</style>
+</html>

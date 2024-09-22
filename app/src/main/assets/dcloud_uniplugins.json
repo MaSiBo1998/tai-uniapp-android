@@ -1,0 +1,14 @@
+{
+  "nativePlugins": [
+    {
+      "hooksClass": "io.dcloud.uniplugin.PluginApplication",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "WTUniPlugin-WTModule",
+          "class": "io.dcloud.uniplugin.module.GroupModule"
+        }
+      ]
+    }
+  ]
+}
