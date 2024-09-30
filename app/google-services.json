@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1054673633326",
-    "project_id": "plugin-11087",
-    "storage_bucket": "plugin-11087.appspot.com"
+    "project_number": "583381504995",
+    "project_id": "financeoline",
+    "storage_bucket": "financeoline.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1054673633326:android:de8dec2fd1c4f535dcdfbf",
+        "mobilesdk_app_id": "1:583381504995:android:9ff521c2f78e90079e46d6",
         "android_client_info": {
-          "package_name": "com.android.tai"
+          "package_name": "com.financeoline.pro.gad"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDoj57FQBvxjd5d6QPJ9IElKT7XyOFG9jE"
+          "current_key": "AIzaSyDOKvm9L3ZGlc9lyKwOa3uvkI1Ap7PKSXY"
         }
       ],
       "services": {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.tai">
+    package="com.financeoline.pro.gad">
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -78,10 +78,10 @@
         </activity>
         <meta-data
             android:name="af_key"
-            android:value="" />
+            android:value="jeKZv2suqzAZvUbjLJExH4" />
         <meta-data
             android:name="dcloud_appkey"
-            android:value="adaf5299a8b9f8cea0da3d8290b1b484" />
+            android:value="59b460aafba69b45f148dd272a12e23f" />
     </application>
 
 </manifest>
