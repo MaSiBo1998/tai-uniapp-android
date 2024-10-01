@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 android {
-    namespace 'com.financeoline.pro.gad'
+    namespace 'com.uniapp.tai'
     compileSdkVersion 34
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId "com.financeoline.pro.gad"
+//        com.financeoline.pro.gad
+        applicationId "com.uniapp.tai"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 100
@@ -15,7 +16,7 @@ android {
             abiFilters 'x86', 'armeabi-v7a', 'arm64-v8a'
         }
         manifestPlaceholders = [
-                "apk.applicationId"     : "com.financeoline.pro.gad",
+                "apk.applicationId"     : "com.uniapp.tai",
         ]
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8

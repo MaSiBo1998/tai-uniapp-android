@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.financeoline.pro.gad">
+    package="com.uniapp.tai">
+<!--    com.uniapp.tai-->
+<!-- com.financeoline.pro.gad   -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -79,9 +81,11 @@
         <meta-data
             android:name="af_key"
             android:value="jeKZv2suqzAZvUbjLJExH4" />
+<!--        test 9a5f1b8b8240467b7ec3ebbc7cb6bdb7 -->
+<!--        prod fcf9f7a85db1b4ea505a90c1ee47d64d -->
         <meta-data
             android:name="dcloud_appkey"
-            android:value="59b460aafba69b45f148dd272a12e23f" />
+            android:value="9a5f1b8b8240467b7ec3ebbc7cb6bdb7" />
     </application>
 
 </manifest>
